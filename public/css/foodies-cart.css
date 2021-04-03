@@ -1,0 +1,30 @@
+
+    .cartItem{
+
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-evenly;
+
+    }
+    .titleMenuCart{
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .cartImgItem{
+        width: 40%;
+        background-size: cover!important;
+        margin: 0 5px;
+    }
+    .CartDesc{
+        line-height: 1.0em!important;
+    }
+    .cartContent{
+        font-size: 0.7em;
+        line-height: 2.0em;
+    }
+    .empty-cart{
+        text-align: center;
+        font-size: 0.8em;
+        font-style: italic;
+        color: #b6b5b4;
+    }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/public/css/reset.css">
+        <link rel="stylesheet" href="/public/css/foodies-toggle.css">
+        <link rel="stylesheet" href="/public/css/foodies.css">
+        <link rel="stylesheet" href="/public/css/foodies-nav.css">
+        <link rel="stylesheet" href="/public/css/foodies-menu.css">
+        <link rel="stylesheet" href="/public/css/foodies-footer.css">
+        <link rel="stylesheet" href="/public/css/foodies-cart.css">
+        <link rel="stylesheet" href="/public/css/foodies-slider.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="/public/img/favicon-foodies.png" />
+        <title>Foodies</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Euphoria+Script&family=Noto+Serif&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <script src="/public/js/foodies-cart.js" type="module" defer></script>
+        <script src="https://kit.fontawesome.com/61f92f71c9.js" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="/public/js/foodies-toggle.js" defer></script>
+        <script src="/public/js/autoSlider.js" defer></script>
+        <script src="/public/js/stickyMenu.js" defer></script>
+        <script src="/public/js/foodies-search.js" type="module" defer></script>
+        <script src="/public/js/foodies-goToButton.js" defer></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js" ></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js" ></script>
+        <script src="/public/js/foodies-cookieHandler.js" type="module" defer></script>
+        <script src="/public/js/foodies-Login.js" type="module" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/public/js/foodies-menu.js" type="module" defer></script> 
+    </head>
+
+<body class="body">
+
+    <%- include('nav'); -%>
+    <header class="header">
+        <div class="goToButton" onclick="smoothScroll(document.querySelector('#menu'))">
+            <span>I'm hungry!</span><span class="iconify arrDown" data-icon="fe:arrow-down" data-inline="false"></span>
+        </div>
+        <div class="slider">
+            <div class="containSlide">
+                <div class="slider1"></div>
+                <div class="slider2"></div>
+                <div class="slider3"></div>
+                <div class="slider4"></div>
+            </div>
+        </div>
+    </header>
+    <section id="menu">
+        <div class="pizza"></div>
+        <div class="salad"></div>
+        <div class="burger"></div>
+        <div class="drink"></div>
+        <div class="contain swiper-container">
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div id="categorieFood">
+                <a href="#pizza" class="selected"><span class="iconify" data-icon="noto-v1:pizza"
+                        data-inline="false"></span><span>Pizza</span></a>
+                <a href="#salad" class="border-radius-left"><span class="iconify" data-icon="noto:green-salad"
+                        data-inline="false"></span><span>Salad</span></a>
+                <a href="#burger"><span class="iconify" data-icon="emojione:hamburger" data-inline="false"></span><span>
+                        Burger</span></a>
+                <a href="#drink"><span class="iconify" data-icon="twemoji:tropical-drink"
+                        data-inline="false"></span><span>Drink</span></a>
+
+            </div>
+            <div class="swiper-wrapper">
+                
+            </div>
+            <article class="menu-section swiper-slide cpy">
+                <div class="img-article"></div>
+                <div class="descript-article">
+                    <h1></h1>
+                    <p class="recipe-menu"></p>
+                    <div class="priceAndQuantity">
+                        <p class="price-menu"></p>
+                        <div>
+                            <label for="quantity"></label>
+                            <select name="quantity" class="quantity">
+                                <option value="1" selected = "selected">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="addToCart">
+                    <p>Add to cart </p><span class="iconify" data-icon="bi:cart-plus" data-inline="false"></span>
+                </div>
+            </article>
+        </div>
+
+    </section>
+    
+    <%- include('footer'); -%>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+{
+    "pizza" :{
+        "0" :{
+            "imgLink":"/pizza/pizza-banner.jpg",
+            "title": "blablabla",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing",
+            "price" :"40"
+        },
+        "1" :{
+            "imgLink":"/pizza/pizza1.jpg",
+            "title": "Pomegranate & Pear ",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  ",
+            "price" :"50"
+        },
+        "2" :{
+            "imgLink":"/pizza/pizza2.jpg",
+            "title": "Caesar Salad",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "price" :"21"
+        },
+        "3" :{
+            "imgLink":"/pizza/pizza3.jpg",
+            "title": "Caprese",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "price" :"20"
+        },
+        "4" :{
+            "imgLink":"/pizza/pizza4.jpg",
+            "title": "Greek Salad",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "price" :"25"
+        },
+        "5" :{
+            "imgLink":"/pizza/pizza5.jpg",
+            "title": "Cucumber Salad",
+            "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "price" :"10"
+        }
+    },
+        "salad" :{
+            "0" :{
+                "imgLink":"/salade/salade-banner.jpg",
+                "title": "blablabla",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"40"
+            },
+            "1" :{
+                "imgLink":"/salade/salade1.jpg",
+                "title": "Pomegranate & Pear ",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"50"
+            },
+            "2" :{
+                "imgLink":"/salade/salade2.jpg",
+                "title": "Caesar Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"21"
+            },
+            "3" :{
+                "imgLink":"/salade/salade3.jpg",
+                "title": "Caprese",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"20"
+            },
+            "4" :{
+                "imgLink":"/salade/salade4.jpg",
+                "title": "Greek Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"25"
+            },
+            "5" :{
+                "imgLink":"/salade/salade5.jpg",
+                "title": "Cucumber Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"10"
+            }
+        },
+        "burger" :{
+            "0" :{
+                "imgLink":"/burger/burger-banner.jpg",
+                "title": "blablabla",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"40"
+            },
+            "1" :{
+                "imgLink":"/burger/burger1.jpg",
+                "title": "Pomegranate & Pear ",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"50"
+            },
+            "2" :{
+                "imgLink":"/burger/burger2.jpg",
+                "title": "Caesar Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"21"
+            },
+            "3" :{
+                "imgLink":"/burger/burger3.jpg",
+                "title": "Caprese",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"20"
+            },
+            "4" :{
+                "imgLink":"/burger/burger4.jpg",
+                "title": "Greek Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"25"
+            },
+            "5" :{
+                "imgLink":"/burger/burger5.jpg",
+                "title": "Cucumber Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"10"
+            }
+        },
+        "drink" :{
+            "0" :{
+                "imgLink":"/drink/drink-banner.jpg",
+                "title": "blablabla",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"40"
+            },
+            "1" :{
+                "imgLink":"/drink/drink1.jpg",
+                "title": "Pomegranate & Pear ",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"50"
+            },
+            "2" :{
+                "imgLink":"/drink/drink2.jpg",
+                "title": "Caesar Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"21"
+            },
+            "3" :{
+                "imgLink":"/drink/drink3.jpg",
+                "title": "Caprese",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"20"
+            },
+            "4" :{
+                "imgLink":"/drink/drink4.jpg",
+                "title": "Greek Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"25"
+            },
+            "5" :{
+                "imgLink":"/drink/drink5.jpg",
+                "title": "Cucumber Salad",
+                "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                "price" :"10"
+            }
+        }
+
+}
