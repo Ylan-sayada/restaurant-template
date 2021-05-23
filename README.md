@@ -1,2 +1,2 @@
 # restaurant-template
-Pure vanilla js website with Nodejs server side.
+Pure vanilla js website(almost) with Nodejs server side and mySql database.
